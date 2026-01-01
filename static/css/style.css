@@ -1,0 +1,90 @@
+/* Body and page layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh; /* full viewport height */
+}
+
+/* Main content fills remaining space */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #004080;
+    color: white;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    height: 15vh;
+    display: flex;
+    justify-content: center;     /* horizontal centering */
+    align-items: center;         /* vertical centering */
+    text-align: center;
+    background-color: #cce0ff;
+    padding: 20px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;      /* stack buttons vertically */
+    align-items: center;         /* center horizontally */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+    display: block;
+    width: 200px;               /* narrow width */
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #003366;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004080;
+    color: white;
+}

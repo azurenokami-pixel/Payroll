@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Azure Corp</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 flex items-center justify-center min-h-screen">
+
+    <!-- Login Card -->
+    <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-sm">
+        <h1 class="text-2xl font-bold text-center mb-6">Azure Corp Login</h1>
+        
+        <form class="flex flex-col gap-4">
+
+            <div class="flex flex-col">
+                <label for="username" class="mb-1 font-semibold text-gray-700">Username</label>
+                <input type="text" id="username" placeholder="Enter username" 
+                       class="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+
+            <div class="flex flex-col">
+                <label for="password" class="mb-1 font-semibold text-gray-700">Password</label>
+                <input type="password" id="password" placeholder="Enter password" 
+                       class="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+
+            <button type="submit" class="mt-4 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-800">
+                Login
+            </button>
+
+        </form>
+
+        <p class="text-center text-gray-600 mt-4 text-sm">
+            Don't have an account? <a href="#" class="text-green-600 hover:text-green-800">Sign up</a>
+        </p>
+    </div>
+
+</body>
+</html>
